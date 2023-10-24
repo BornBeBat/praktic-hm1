@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>SimplyChocolate</title>
   </head>
   <body>
+    <!--=================================================
+    ===========(HEADER)==========
+    =================================================-->
     <header>
       <a href="./index.html">
         SIMPLY CHOCOLATE
-        <img src="./images/chocolate.png" alt="icon" />
+        <svg class="header-logo-icon" width="24" height="24">
+          <use href="./img/icons.svg#icon-chocolate"></use>
+        </svg>
       </a>
       <nav>
         <ul>
@@ -21,25 +28,43 @@
       <ul>
         <li>
           <a href=""
-            ><img src="./images/facebook.png" alt="Facebook" width="40"
-          /></a>
+            ><svg class="sotial-icons" width="24" height="24">
+              <use href="./img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
         </li>
         <li>
-          <a href=""
-            ><img src="./images/instagram.png" alt="Instagram" width="40"
-          /></a>
+          <a href="">
+            <svg class="" width="24" height="24">
+              <use href="./img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
         </li>
         <li>
-          <a href=""
-            ><img src="./images/twitter.png" alt="Twitter(X)" width="40"
-          /></a>
+          <a href="">
+            <svg class="" width="24" height="24">
+              <use href="./img/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
         </li>
       </ul>
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="mobile-m-icon" width="28" height="28">
+          <use href="./img/icons.svg"></use>
+        </svg>
+      </button>
     </header>
-
+    <!--=================================================
+      ===========(Main)==========
+      =================================================-->
     <main>
-      <!-- Section-Hero -->
-
+      <!--=================================================
+      ===========(Section-Hero)==========
+      =================================================-->
       <section>
         <h1>
           Treat yourself or a loved one to our finest ingredients for a moment
@@ -49,14 +74,27 @@
           <li><button type="button">Buy now</button></li>
           <li><button type="button">How it's made</button></li>
         </ul>
-        <button type="button">scroll down</button>
+        <button type="button">
+          scroll down
+          <span>
+            <svg class="hero-icon" width="22" height="22">
+              <use href="./img/icons.svg#icon-angle"></use>
+            </svg>
+          </span>
+        </button>
       </section>
-
-      <!-- Benefits -->
+      <!--=================================================
+      ===========(Benefits)==========
+      =================================================-->
       <section>
         <h2>Benefits</h2>
         <ul>
           <li>
+            <div>
+              <svg class="benefits-icon" width="32" height="32">
+                <use href="./img/icons.svg#icon-choco"></use>
+              </svg>
+            </div>
             <h3>Unsurpassed taste</h3>
             <p>
               Crafted with the finest quality cocoa beans and a dedication to
@@ -67,6 +105,11 @@
           </li>
 
           <li>
+            <div>
+              <svg class="benefits-icon" width="32" height="32">
+                <use href="./img/icons.svg#icon-coin"></use>
+              </svg>
+            </div>
             <h3>Affordable price</h3>
             <p>
               Indulge in high-quality chocolate without breaking the bank with
@@ -78,6 +121,11 @@
           </li>
 
           <li>
+            <div>
+              <svg class="benefits-icon" width="32" height="32">
+                <use href="./img/icons.svg#icon-spoon"></use>
+              </svg>
+            </div>
             <h3>Own production</h3>
             <p>
               We take pride in our own production process, ensuring that every
@@ -88,149 +136,218 @@
           </li>
         </ul>
       </section>
-
-      <!-- ingridients -->
+      <!--=================================================
+      ===========(ingridients)==========
+      =================================================-->
       <section>
-        <h2>It all adds up to one exceptional taste sensation</h2>
+        <h2>
+          It all adds up to one exceptional
+          <span class="acsent-text-color">taste</span> sensation
+        </h2>
         <ul>
           <li>
-            <img src="./img/img-1.jpg" alt="Milk chocolate" />
+            <img src="./img/img-1_desk.png" alt="Milk chocolate" />
             <p>MILK CHOCOLATE</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
           <li>
-            <img src="./img/img-2.jpg" alt="Milk" />
+            <img src="./img/img-2_desk.png" alt="Milk" />
             <p>MILK</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
           <li>
-            <img src="./img/img-3.jpg" alt="Nuts" />
+            <img src="./img/img-3_desk.png" alt="Nuts" />
             <p>NUTS</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
           <li>
-            <img src="./img/img-4.jpg" alt="sweet chocolate" />
+            <img src="./img/img-4_desk.png" alt="sweet chocolate" />
             <p>SEMI - SWEET CHOCOLATE</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
           <li>
-            <img src="./img/img-5.jpg" alt="cacao" />
+            <img src="./img/img-5_desk.png" alt="cacao" />
             <p>CACAO</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
           <li>
-            <img src="./img/img-6.jpg" alt="raspberry" />
+            <img src="./img/img-6_desk.png" alt="raspberry" />
             <p>RASPBERRY</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
           <li>
-            <img src="./img/img-7.jpg" alt="coconut oil" />
+            <img src="./img/img-1_desk.png" alt="coconut oil" />
             <p>COCONUT OIL</p>
+            <svg class="ingridients-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
           </li>
         </ul>
       </section>
-      <!-- Made -->
+      <!--=================================================
+      ===========(How it made)==========
+      =================================================-->
       <section>
-        <h2>How it's made?</h2>
-        <img src="./img/image.jpg" alt="" />
+        <h2>How it's <span class="acsent-text-color">made</span>?</h2>
+
+        <div>
+          <img src="./img/image_desk.jpg" alt="" />
+          <svg class="made-icon" width="44" height="44">
+            <use href="./img/icons.svg#icon-play"></use>
+          </svg>
+        </div>
         <h3>
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
         <ul>
           <li>
+            <img src="./img/point.png" alt="" />
             Heat the milk in a saucepan without bringing it to a boil. Add sugar
             and cocoa powder.
           </li>
           <li>
+            <img src="./img/point.png" alt="" />
             At the same time, prepare a water bath. Melt the butter on it.
           </li>
           <li>
+            <img src="./img/point.png" alt="" />
             "Mix" the milk mixture and already liquid butter. Mix thoroughly
             with a silicone spatula so that the mass becomes uniform and silky.
           </li>
-          <li>Heat the mixture over low heat, letting it barely boil.</li>
           <li>
+            <img src="./img/point.png" alt="" />Heat the mixture over low heat,
+            letting it barely boil.
+          </li>
+          <li>
+            <img src="./img/point.png" alt="" />
             Pour the chocolate into special containers (can be replaced with ice
             molds). Allow to cool and harden.
           </li>
         </ul>
       </section>
-
-      <!-- Product  -->
+      <!--=================================================
+      ===========(Product )==========
+      =================================================-->
       <section>
-        <h2>Our products</h2>
+        <h2>Our <span class="acsent-text-color">products</span></h2>
         <ul>
           <li>
-            <img src="./img/product1.jpg" alt="" />
+            <img src="./img/img-1.png" alt="chocolate" />
             <h3>Orange</h3>
             <p>Dark chocolate</p>
             <button type="button">45 UAH</button>
           </li>
           <li>
-            <img src="./img/product2.jpg" alt="" />
+            <img src="./img/img-2.png" alt="chocolate" />
             <h3>Apple&Cranberry</h3>
             <p>Milk chocolate</p>
             <button type="button">50 UAH</button>
           </li>
           <li>
-            <img src="./img/product3.jpg" alt="" />
+            <img src="./img/img-3.png" alt="chocolate" />
             <h3>Lime&Sea salt</h3>
             <p>Dark chocolate</p>
             <button type="button">66 UAH</button>
           </li>
           <li>
-            <img src="./img/product4.jpg" alt="" />
+            <img src="./img/img-4.png" alt="chocolate" />
             <h3>Pineapple</h3>
             <p>Dark chocolate</p>
             <button type="button">54 UAH</button>
           </li>
 
           <li>
-            <img src="./img/product5.jpg" alt="" />
+            <img src="./img/img-5.png" alt="chocolate" />
             <h3>Classic</h3>
             <p>Milk chocolate</p>
             <button type="button">45 UAH</button>
           </li>
           <li>
-            <img src="./img/product6.jpg" alt="" />
+            <img src="./img/img-6.png" alt="chocolate" />
             <h3>Honey</h3>
             <p>Milk chocolate</p>
             <button type="button">50 UAH</button>
           </li>
           <li>
-            <img src="./img/product7.jpg" alt="" />
+            <img src="./img/img-7.png" alt="chocolate" />
             <h3>Roasted fruits</h3>
             <p>Dark chocolate</p>
             <button type="button">66 UAH</button>
           </li>
           <li>
-            <img src="./img/product8.jpg" alt="" />
+            <img src="./img/img-8.png" alt="chocolate" />
             <h3>Classic</h3>
             <p>White chocolate</p>
             <button type="button">54 UAH</button>
           </li>
         </ul>
       </section>
-
-      <!-- Sellers  -->
+      <!--=================================================
+      ===========(Sellers )==========
+      =================================================-->
       <section>
-        <h2>Top sellers</h2>
+        <h2><span class="acsent-text-color">Top</span> sellers</h2>
         <ul>
           <li>
-            <img src="./img/sellers1.jpg" alt="nuts" />
+            <div>
+              <img src="./img/img-1@2x.jpg" alt="nuts" />
+              <p>
+                Chocolate with nuts is a delectable combination that brings
+                together the smoothness of chocolate and the crunchiness of
+                nuts. Whether it's milk chocolate, dark chocolate, or white
+                chocolate, the addition of nuts adds a whole new dimension of
+                flavor and texture.
+              </p>
+            </div>
             <p>CHOCOLATE WITH NUTS</p>
           </li>
           <li>
-            <img src="./img/sellers2.jpg" alt="fruits" />
+            <div>
+              <img src="./img/img-2@2x.jpg" alt="fruits" />
+              <p>
+                Chocolate with fruit is an unbeatable combination of two of the
+                tastiest things in the world. This dessert combines delicate and
+                aromatic chocolate with fresh and juicy fruits, creating a true
+                poetry of taste.
+              </p>
+            </div>
             <p>CHOCOLATE WITH FRUITS</p>
           </li>
           <li>
-            <img src="./img/sellers3.jpg" alt="dark chocolate" />
+            <div>
+              <img src="./img/img-3@2x.jpg" alt="dark chocolate" />
+              <p>
+                Dark chocolate is a rich and indulgent treat that is beloved by
+                many chocolate enthusiasts. It is made from cocoa beans, which
+                are roasted, ground, and then processed to produce chocolate
+                liquor. Dark chocolate contains a higher percentage of cocoa
+                solids compared to milk chocolate.
+              </p>
+            </div>
             <p>DARK CHOCOLATE</p>
           </li>
         </ul>
       </section>
-
-      <!-- Review -->
+      <!--=================================================
+      ===========(Review)==========
+      =================================================-->
       <section>
-        <h2>Chocolate is loved</h2>
+        <h2><span class="acsent-text-color">Chocolate</span> is loved</h2>
         <ul>
           <li>
-            <img src="./img/review1.jpg" alt="women" />
+            <img src="./img/review1.png" alt="women" />
             <h3>Victoria Dobrzhanska</h3>
             <p>
               I love this chocolate bar. Perfect combination of light crispy
@@ -238,7 +355,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/review2.jpg" alt="men" />
+            <img src="./img/review2.png" alt="men" />
             <h3>Nazar Babenko</h3>
             <p>
               This chocolate confection is a delight! A delight! The wafer is
@@ -247,7 +364,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/review3.jpg" alt="women" />
+            <img src="./img/review3.png" alt="women" />
             <h3>Olena Kampusch</h3>
             <p>
               Chocolate is a family favourite treat. Love the delicious smooth
@@ -256,40 +373,37 @@
             </p>
           </li>
         </ul>
-        <button type="button">Leave a review</button>
+        <button type="button" data-modal-open>Leave a review</button>
       </section>
     </main>
-    <!-- Footer -->
+    <!--=================================================
+      ===========(Footer)==========
+      =================================================-->
     <footer>
-      <p>Chocolate a delicious cure for a bad day</p>
+      <p>
+        <span class="acsent-text-color">Chocolate</span> a delicious cure for a
+        bad day
+      </p>
       <p>Social networks</p>
       <ul>
         <li>
-          <a href="">
-            <svg>
-              <use
-                href="./img/icons.svg#icon-facebook"
-                width="24"
-                height="24"
-              ></use>
+          <a href=""
+            ><svg class="sotial-icons" width="24" height="24">
+              <use href="./img/icons.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
         <li>
           <a href="">
-            <svg>
-              <use
-                href="./img/icons.svg#icon-instagram"
-                width="24"
-                height="24"
-              ></use>
+            <svg class="" width="24" height="24">
+              <use href="./img/icons.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li>
           <a href="">
-            <svg>
-              <use href="./img/icons.svg#icon-twitter" width="24"></use>
+            <svg class="" width="24" height="24">
+              <use href="./img/icons.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
@@ -310,6 +424,119 @@
           <li><a href="">Chocolate is loved</a></li>
         </ul>
       </nav>
+      <div>
+        <form class="footer-form">
+          <input type="mail" name="user_mail" id="user_mail" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
     </footer>
+    <!--=================================================
+    ===========(Modal Window)==========
+    =================================================-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" data-modal-close>
+          <svg class="btn-close" width="14" height="14">
+            <use href="./img/icons.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <p>
+          LEAVE A REVIEW ABOUT
+          <span class="acsent-text-color">OUR CHOCOLATE</span>
+        </p>
+        <form>
+          <label>
+            Name <input type="text" id="user_name" name="user_name" />
+            <span>
+              <svg class="form-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-user"></use>
+              </svg>
+            </span>
+          </label>
+          <label
+            >Email <input type="email" id="user_mail" name="user_mail" />
+            <span>
+              <svg class="form-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-mail"></use>
+              </svg>
+            </span>
+          </label>
+          <label>
+            Phone number <input type="tel" id="user_tel" name="user_tel" />
+            <span>
+              <svg class="form-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </label>
+          <label
+            >Comment
+            <textarea name="user_comment" id="user_comment" rows="2"></textarea>
+          </label>
+          <input type="checkbox" id="privacy_policy" name="privacy_policy" />
+          <label for="privacy_policy"
+            ><span>
+              <svg class="checkbox-icon" width="10" height="10">
+                <use href="./img/icons.svg#icon-checkbox"></use>
+              </svg> </span
+            >I accept the terms and conditions of the
+            <span class="acsent-text-color">Privacy Policy</span>
+          </label>
+          <button type="submit"></button>
+        </form>
+      </div>
+    </div>
+    <!--=================================================
+    ===========(Mobile Menu)==========
+    =================================================-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div>
+        <button class="menu-toggle js-close-menu">
+          <svg class="" width="12" height="12">
+            <use href="./img/icons.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="">How it's made?</a></li>
+            <li><a href="">Chocolate is loved</a></li>
+          </ul>
+        </nav>
+        <ul>
+          <li>
+            <a href=""
+              ><svg class="sotial-icons" width="24" height="24">
+                <use href="./img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <svg class="" width="24" height="24">
+                <use href="./img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <svg class="" width="24" height="24">
+                <use href="./img/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
